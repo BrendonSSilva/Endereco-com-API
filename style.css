@@ -1,0 +1,19 @@
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column
+}
+
+input::placeholder {
+    color: #fff !important;
+}
+
+.error {
+    color: #fff;
+    background-color: #ff0000;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 3px;
+}
